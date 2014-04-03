@@ -1,0 +1,24 @@
+{
+  "name": "component-middleware",
+  "description": "component building middleware for node/connect/express",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "component/middleware.js",
+  "dependencies": {
+    "component-resolver": "^1.0.0",
+    "component-build": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 10s --bail test/index.js"
+  }
+}
